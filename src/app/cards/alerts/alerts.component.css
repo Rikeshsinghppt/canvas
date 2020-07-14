@@ -1,0 +1,23 @@
+.containt{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(241, 235, 234);
+  }
+  
+  td, th {
+    border: 1px solid silver;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  .styl {
+    font-weight: 900;
+}
+
+.styl {
+  font-weight: 900;
+}

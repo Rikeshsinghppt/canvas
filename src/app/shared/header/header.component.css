@@ -1,0 +1,15 @@
+mat-toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+mat-menu{
+    padding: 0;
+}
+span{
+    display: flex;
+}
+
+.mat-button .mat-button-wrapper>*, .mat-fab .mat-button-wrapper>*, .mat-flat-button .mat-button-wrapper>*, .mat-icon-button .mat-button-wrapper>*, .mat-mini-fab .mat-button-wrapper>*, .mat-raised-button .mat-button-wrapper>*, .mat-stroked-button .mat-button-wrapper>* {
+    vertical-align: middle;
+    margin-left: -15px;
+}

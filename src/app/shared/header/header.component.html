@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+    <span>
+        <button mat-icon-button>
+          <mat-icon (click)="toggleSideBar()">menu</mat-icon>
+        </button>
+      <!--   <button mat-icon-button>
+            <mat-icon style="color: aliceblue;" (click)="goToHome()">home</mat-icon>
+        </button> -->
+        <h4 style="line-height: 42px;">Skilancer Pvt Ltd.</h4>
+    </span>
+    <!-- <span style="text-align: left;">
+        
+    </span> -->
+    <span>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon style="margin-left: -30px;">power_settings_new</mat-icon>Admin</button>
+        <mat-menu #menu="matMenu">
+           <button mat-menu-item (click)="logOut()">Logout</button>
+        </mat-menu>
+    </span>
+</mat-toolbar>

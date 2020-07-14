@@ -1,0 +1,13 @@
+.container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+mat-card{
+    width: 700px;
+    height: 600px;
+    /* height: 150px; */
+    border: 1px solid gray;
+    box-sizing: border-box;
+}

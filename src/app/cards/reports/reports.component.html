@@ -1,0 +1,29 @@
+<div class="styl">
+    <p style="text-align: center; ">All The Reports About Solar Panel Are Here</p> 
+    </div>
+    <div class="containt">
+        <div class="row">
+            <table class="table table-bordered" style="width:100%">
+                <thead>
+                  <tr>
+                    <th>S.N</th>
+                    <th>Solar cleaner ID</th>
+                    <th>Robot Status</th>
+                    <th>Location</th>
+                    <th>Cleaner Run Time(min)</th>
+                    <th>Solar Cleaner Voltage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let Tables of table">
+                      <td>{{Tables.data.SN}}</td>
+                      <td>{{Tables.data.SLID}}</td>
+                      <td>{{Tables.data.ROS}}</td>
+                      <td>{{Tables.data.LOC}}</td>
+                      <td>{{Tables.data.CRT}}</td>
+                      <td>{{Tables.data.SCV}}</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+    </div>
